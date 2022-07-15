@@ -1,0 +1,62 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a1014;
+}
+.row>* {
+    margin: 0;
+    padding: 0;
+}
+
+.chat main{
+    background-image: url(assets/background.webp);
+    opacity: 0.4;
+    height: 80vh;
+}
+
+.img-grupo {
+    width: 40px;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+
+.header-grupo {
+    background-color: #202c33;
+    color: #fff;
+    height: 59px;    
+}
+
+.header-grupo span {
+    margin: 0px 8px;    
+}
+
+.info-grupo p {
+    font-size: 13px;
+    color:#8696A0;
+}
+
+footer {
+    height: 62px;
+    background-color: #202c33;
+}
+
+footer input{   
+    color:#fff;
+    background-color: #2a3942;
+    padding: 9px 12px 11px;
+    margin: 5px 10px;
+    border: 1px solid #2a3942;
+    border-radius: 8px;
+    width: 100%;
+}
+
+footer input::placeholder{
+    color:#8696A0;
+}
+
+footer span {
+    margin:0px 10px;
+}
