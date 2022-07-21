@@ -4,17 +4,69 @@ p {
 }
 
 body {
-    background-color: #0a1014;
+    background-color: #142027;
 }
 .row>* {
     margin: 0;
     padding: 0;
 }
 
+.contatos {
+    border-right: 1px solid #8696a059;;
+}
+
+.contatos header {
+    background-color: #202c33;
+    color: #fff;
+    height: 59px;    
+}
+
+.contatos span {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    border-bottom: 1px solid #8696a059;
+}
+
+.icon-pesquisa {
+    background-color: #202c33;
+    border-radius: 8px;
+    
+}
+
+.icon-pesquisa input {
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    color:#fff;
+}
+
+.contatos .header-grupo {
+    background-color: transparent;
+    color: #fff;
+    height: 70px;    
+}
+
+.contatos .img-grupo {
+    width: 49px;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+
+.contatos .info-grupo p {
+    padding-bottom:12px;
+    margin-right: 10px;
+    border-bottom: 1px solid #8696a02d;
+}
+
+
+
 .chat main{
     background-image: url(assets/background.webp);
     opacity: 0.4;
-    height: 80vh;
+    height: calc(100vh - 121px);
 }
 
 .img-grupo {
@@ -31,6 +83,11 @@ body {
 
 .header-grupo span {
     margin: 0px 8px;    
+}
+
+.header-grupo small {
+    font-size: 12px;
+    color:#8696A0;
 }
 
 .info-grupo p {
